@@ -21,11 +21,11 @@ public class GoogeTest {
 		
 		WebDriverManager.chromedriver().setup();
 		WebDriver wd=new ChromeDriver();
-		wd.get("https://www.google.com/");
+		wd.get("https://www.bing.com/");
 		wd.findElement(By.name("q")).sendKeys("chennai");
 		wd.findElement(By.name("q")).sendKeys(Keys.ENTER);
 		
 		File src= ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("screenshot/google.png"));
+		FileUtils.copyFile(src, new File("screenshot/bing.png"));
 	}
 }

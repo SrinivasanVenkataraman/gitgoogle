@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65768" started-at="2022-02-16T08:41:48Z" finished-at="2022-02-16T08:42:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="65768" started-at="2022-02-16T08:41:48Z" finished-at="2022-02-16T08:42:54Z">
+      <class name="bingtest.GoogeTest">
+        <test-method status="PASS" signature="testGoogle()[pri:0, instance:bingtest.GoogeTest@180bc464]" name="testGoogle" duration-ms="65458" started-at="2022-02-16T14:11:48Z" finished-at="2022-02-16T14:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+      </class> <!-- bingtest.GoogeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
